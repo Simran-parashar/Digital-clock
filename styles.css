@@ -1,39 +1,51 @@
-.body{
-    margin: 0;
+*{
     padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;;
+    display: flex;
+    justify-content: center;
+   align-items: center;
    box-sizing: border-box;
    font-family:poppins,sans-serif;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   background-color: crimson;
+   background-color: black;
 }
 .container{
-    
+    height: 50vh;
+    width: 80vh;
     display: flex;
-    position:absolute;
+    justify-content: center;
     align-items: center;
-    justify-content: space-evenly;
-    height: 60px;
-width:220px;
-background-color: rgb(209, 190, 190);
-color:rgb(240, 11, 11);
 border-radius: 5px;
-box-shadow: 5px 5px 2px rgb(182, 106, 106);
 
 }
+.wrapper{
+    background: linear-gradient(135deg,#14ffe9,#ffeb3b,#ff00e0);
+    border-radius: 6%;
+    box-shadow: 10px 10px 20px 8px  rgb(224, 238, 144);
+z-index:999;
+}
+
 .hours, .minutes, .seconds {
+    height: 20vh;
+    width: 20vh;
     font-size: 30px;
     font-weight: 400;
-    border:3px solid rgb(32, 20, 32);
-    background-color: rgb(28, 26, 22);
-    box-shadow:3px 3px 2px rgb(109, 53, 53) ;
+    ;
+    background-color: transparent;
+     ;
     border-radius: 5px;
     padding: 1px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 .dot{
     color:rgb(14, 12, 12);
     font-weight: bolder;
-    font-size: xx-large;
+    font-size: 45px;
 }
